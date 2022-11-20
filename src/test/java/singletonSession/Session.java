@@ -7,23 +7,23 @@ import utils.GetProperties;
 public class Session {
 
 
-    private static Session session=null;
-    private WebDriver browser;
+    private static Session session = null;
+    private final WebDriver browser;
 
-    private Session(){
-        browser= FactoryBrowser.make(GetProperties.getInstance().getBrowser()).create();
+    private Session() {
+        browser = FactoryBrowser.make(GetProperties.getInstance().getBrowser()).create();
     }
 
-    public static Session getInstance(){
+    public static Session getInstance() {
         if (session == null)
-            session= new Session();
+            session = new Session();
         return session;
 
     }
 
-    public void closeBrowser(){
+    public void closeBrowser() {
         browser.quit();
-        session=null;
+        session = null;
     }
 
     public WebDriver getBrowser() {

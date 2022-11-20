@@ -12,11 +12,11 @@ public class GetProperties {
     private String browser;
 
 
-    private GetProperties(){
+    private GetProperties() {
         Properties properties = new Properties();
-        String nameFile=System.getProperty("envFile")==null?"qa.properties":System.getProperty("envFile");
+        String nameFile = System.getProperty("envFile") == null ? "qa.properties" : System.getProperty("envFile");
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream(nameFile);
-        if (inputStream!=null) {
+        if (inputStream != null) {
             try {
                 properties.load(inputStream);
                 host = properties.getProperty("host");
@@ -29,9 +29,10 @@ public class GetProperties {
         }
 
     }
-    public static GetProperties getInstance(){
+
+    public static GetProperties getInstance() {
         if (instance == null)
-            instance= new GetProperties();
+            instance = new GetProperties();
         return instance;
     }
 

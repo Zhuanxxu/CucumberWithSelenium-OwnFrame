@@ -7,6 +7,7 @@ Feature: Categoria Comics
     Given   El usuario se encuentra en la pagina Home de imalittletester
     When    Hace click sobre el titulo The little tester comics
     Then    Se debe redirigir a la pantalla Comics
+
   @browser @slow
   Scenario: Ingresar
     Given   El usuario
@@ -33,6 +34,7 @@ Feature: Categoria Comics
     =================
     Este es el primer parrafo
     """
+
   @tabla
   Scenario: Data table
     Given Los siguientes usuarios existentes:

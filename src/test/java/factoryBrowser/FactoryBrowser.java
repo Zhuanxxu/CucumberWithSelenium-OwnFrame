@@ -2,24 +2,24 @@ package factoryBrowser;
 
 public class FactoryBrowser {
 
-    public static IBrowser make (String browserType){
+    public static IBrowser make(String browserType) {
         IBrowser browser;
 
-        switch (browserType.toLowerCase()){
+        switch (browserType.toLowerCase()) {
             case "chrome":
                 browser = new Chrome();
                 break;
             case "cloud":
-                browser =new Cloud();
+                browser = new Cloud();
                 break;
             case "headless":
-                browser=new Headless();
+                browser = new Headless();
                 break;
             case "edge":
-                browser=new Edge();
+                browser = new Edge();
                 break;
             case "docker":
-                browser=new BrowserDocker();
+                browser = new BrowserDocker();
                 break;
             default:
                 browser = new Firefox();

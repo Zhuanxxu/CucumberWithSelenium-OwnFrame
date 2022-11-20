@@ -2,7 +2,7 @@ package controlSelenium;
 
 import org.openqa.selenium.By;
 
-public class TextBox extends Control{
+public class TextBox extends Control {
 
     public TextBox(By locator) {
         super(locator);
@@ -12,16 +12,18 @@ public class TextBox extends Control{
         super(locator, controlName);
     }
 
-    /** Busca el control, borra lo que este escrito
+    /**
+     * Busca el control, borra lo que este escrito
      * y escribe lo que se mande por parametro
      */
-    public void setText(String value){
+    public void setText(String value) {
         this.findControl();
-        this.step("Set on control: "+controlName+" the value: ["+value+"]");
+        this.step("Set on control: " + controlName + " the value: [" + value + "]");
         this.control.clear();
         this.control.sendKeys(value);
     }
-    public void setTextnoClear(String value){
+
+    public void setTextnoClear(String value) {
         this.findControl();
         this.control.sendKeys(value);
     }

@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 public class Navbar {
     public Button searchBox = new Button(By.xpath("//input[@id]"));
-    public Button addTaskBtn = new Button(By.id("quick_add_task_holder"),"Add task navbar button");
+    public Button addTaskBtn = new Button(By.id("quick_add_task_holder"), "Add task navbar button");
     public Button accountBtn = new Button(By.xpath("//button[@id]//img"));
     public Button configurationOptBtn = new Button(By.id("user_menu_settings_menuitem"));
     public Button logoutOptBtn = new Button(By.xpath("//button[@id and @role=\"menuitem\"]/following-sibling::button"));

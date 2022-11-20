@@ -2,7 +2,6 @@ package utils;
 
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
-import utils.Attach;
 
 import static utils.Attach.attach;
 

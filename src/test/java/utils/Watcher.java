@@ -2,9 +2,6 @@ package utils;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import singletonSession.Session;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +14,8 @@ import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
 
 
 public class Watcher implements TestWatcher {
-    private List<TestResultStatus> testResultsStatus = new ArrayList<>();
+    private final List<TestResultStatus> testResultsStatus = new ArrayList<>();
 
-    private enum TestResultStatus {
-        SUCCESSFUL, ABORTED, FAILED, DISABLED;
-    }
     @Override
     public void testDisabled(ExtensionContext context, Optional<String> reason) {
         LOG.info("Test Disabled for test {}: with reason :- {}"
@@ -34,6 +28,7 @@ public class Watcher implements TestWatcher {
         LOG.info("Test Successful for test {}: ");
         testResultsStatus.add(TestResultStatus.SUCCESSFUL);
     }
+
     @Override
     public void testAborted(ExtensionContext context, Throwable cause) {
         LOG.info("Test Aborted for test {}: ");
@@ -46,12 +41,16 @@ public class Watcher implements TestWatcher {
         testResultsStatus.add(TestResultStatus.FAILED);
     }
 
-
     public void afterAll(ExtensionContext context) throws Exception {
         Map<TestResultStatus, Long> summary = testResultsStatus.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         LOG.info("Test result summary for {} {}");
+    }
+
+
+    private enum TestResultStatus {
+        SUCCESSFUL, ABORTED, FAILED, DISABLED
     }
 
 }

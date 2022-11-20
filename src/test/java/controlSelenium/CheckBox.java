@@ -2,7 +2,7 @@ package controlSelenium;
 
 import org.openqa.selenium.By;
 
-public class CheckBox extends Control{
+public class CheckBox extends Control {
 
 
     public CheckBox(By locator) {
@@ -13,18 +13,18 @@ public class CheckBox extends Control{
         super(locator, controlName);
     }
 
-    public void check(){
+    public void check() {
         this.findControl();
         if (!this.control.isSelected())
             control.click();
-        this.step("Check the control "+this.controlName);
+        this.step("Check the control " + this.controlName);
     }
 
 
-    public void uncheck(){
+    public void uncheck() {
         this.findControl();
         if (this.control.isSelected())
             control.click();
-        this.step("Uncheck the control "+this.controlName);
+        this.step("Uncheck the control " + this.controlName);
     }
 }

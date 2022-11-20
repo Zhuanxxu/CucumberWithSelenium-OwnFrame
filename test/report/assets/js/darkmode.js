@@ -6,7 +6,7 @@ function applyDarkMode() {
 }
 
 function saveState() {
-    if(isDarkModeOn()) {
+    if (isDarkModeOn()) {
         window.localStorage['darkmode'] = 'on';
     } else {
         window.localStorage['darkmode'] = 'off';
@@ -23,8 +23,8 @@ function isDarkModeOn() {
     return toggle.checked;
 }
 
-window.onload = function() {
-    if(window.localStorage['darkmode'] === 'on') {
+window.onload = function () {
+    if (window.localStorage['darkmode'] === 'on') {
         applyDarkMode();
         document.getElementById('darkCheck').checked = true;
     }

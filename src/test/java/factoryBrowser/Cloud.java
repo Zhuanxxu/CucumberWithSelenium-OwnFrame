@@ -9,7 +9,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
 
-public class Cloud implements  IBrowser{
+public class Cloud implements IBrowser {
     @Override
     public WebDriver create() {
         WebDriver driver;

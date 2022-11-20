@@ -47,16 +47,16 @@ dependencies {
 
 // gradle clean test -PenvFile=qa.properties
 
-def envFile = !project.hasProperty("envFile")?"qa.properties":project.properties['envFile']
+def envFile = !project.hasProperty("envFile") ? "qa.properties" : project.properties['envFile']
 test {
-    systemProperty("envFile",envFile.toString())
+    systemProperty("envFile", envFile.toString())
     useJUnitPlatform()
 }
 
-def testSuite = !project.hasProperty("testSuite")?"Acceptance":project.properties['testSuite']
-def tags = tasks.register("tags",Test) {
-    systemProperty("envFile",envFile.toString())
-    systemProperty("testSuite",testSuite.toString())
+def testSuite = !project.hasProperty("testSuite") ? "Acceptance" : project.properties['testSuite']
+def tags = tasks.register("tags", Test) {
+    systemProperty("envFile", envFile.toString())
+    systemProperty("testSuite", testSuite.toString())
     useJUnitPlatform {
         includeTags testSuite
     }

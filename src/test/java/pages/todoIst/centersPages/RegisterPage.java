@@ -2,7 +2,6 @@ package pages.todoIst.centersPages;
 
 import controlSelenium.Button;
 import controlSelenium.TextBox;
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 
 public class RegisterPage {
