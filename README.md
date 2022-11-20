@@ -1,10 +1,9 @@
-# Nybble-AutomationWeb
+# Cucumber with Selenium Framework
 
-## Reporting
+## To init
+- Clone the repo
+- Exc "node i"
 
-### Comands
-
-- allure serve .\build\allure-results\
 
 ## Browser options
 
@@ -21,9 +20,4 @@
 
 - gradle clean -x test -PenvFile=qa.properties tests
   Ejecuta los test con el @tag SmokeTest y settea
-  envFile el archivo qa.rpoperties
-- gradle clean test -PenvFile=qa.properties --tests "TestSuite1"# FinalProject-Nybble
 
-# Browser devtool utils
-
-- ctrl + shift + p : opens cmd for devtools"# CucumberWithSelenium-OwnFrame" 
