@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,7 +319,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="3259000" />
+      <workItem from="1669043170458" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio completo1">
       <created>1666105597306</created>
@@ -642,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669046529609</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Testing actios and reports to be ok">
+      <created>1669046669194</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046669195</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Agrego nueva funcion findControls(), findControlsQuantity(),hasAttributeValue(),waitUntilElementHasHtmlAttribute().&#10;&#10;Y agrego documentacion a las funciones." />
     <MESSAGE value="Examen ejercicio 4" />
     <MESSAGE value="Examen ejercicio 4 completo" />
     <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen" />
@@ -685,7 +692,8 @@
     <MESSAGE value="Small changes for github actions" />
     <MESSAGE value="Update gradle.yml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Testing actios and reports to be ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing actios and reports to be ok" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
