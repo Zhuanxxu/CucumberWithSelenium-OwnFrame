@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="Delete node_modules directory">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/cucumber_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/index.html" afterDir="false" />
+    <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +317,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="218000" />
+      <workItem from="1669043170458" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio completo1">
       <created>1666105597306</created>
@@ -616,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668969337900</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Small changes for github actions">
+      <created>1669043453993</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669043453993</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio examen N°2" />
     <MESSAGE value="Ejercicio examen N°3" />
     <MESSAGE value="Ejercicio examen N°3 corregido" />
     <MESSAGE value="Agrego nueva funcion findControls(), findControlsQuantity(),hasAttributeValue(),waitUntilElementHasHtmlAttribute().&#10;&#10;Y agrego documentacion a las funciones." />
@@ -659,7 +662,8 @@
     <MESSAGE value="Avance implemendando cucumber antes de usar node" />
     <MESSAGE value="Implementado" />
     <MESSAGE value="Optimizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimizacion" />
+    <MESSAGE value="Small changes for github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes for github actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
