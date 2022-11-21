@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="Delete node_modules directory">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CucumberWithSelenium-OwnFrame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/msedgedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/preprod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/qa.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/report/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/cucumber_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/index.html" afterDir="false" />
     </list>
@@ -87,8 +79,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion/NybbleAcademy/FinalProject-Nybble&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion/CucumberWithSelenium-OwnFrame&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -323,6 +316,8 @@
       <workItem from="1668961751288" duration="3147000" />
       <workItem from="1668965211750" duration="85000" />
       <workItem from="1668965308188" duration="4385000" />
+      <workItem from="1668970914208" duration="629000" />
+      <workItem from="1668995563314" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio completo1">
       <created>1666105597306</created>
