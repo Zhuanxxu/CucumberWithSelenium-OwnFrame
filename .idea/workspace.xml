@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/qa.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,14 +317,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="6980000" />
-    </task>
-    <task id="LOCAL-00002" summary="Pongo sleeps">
-      <created>1666107377217</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666107377217</updated>
+      <workItem from="1669043170458" duration="7407000" />
     </task>
     <task id="LOCAL-00003" summary="Ejercicio de register y cambio de PWD">
       <created>1666107765262</created>
@@ -662,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669056479069</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Testing">
+      <created>1669057532923</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057532924</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
