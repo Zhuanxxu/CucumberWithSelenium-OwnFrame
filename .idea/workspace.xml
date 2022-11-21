@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +97,11 @@
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\docker\settings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programacion\CucumberWithSelenium-OwnFrame\docs" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\src\test\resources" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\edge\auth" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\headless\settings" />
-      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\backups" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cleanTest.todoly" />
@@ -320,7 +318,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="2862000" />
+      <workItem from="1669043170458" duration="3259000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio completo1">
       <created>1666105597306</created>
@@ -630,7 +628,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669044284263</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Update gradle.yml">
+      <created>1669046321232</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046321232</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1669046529609</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046529609</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,8 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio examen N°3" />
-    <MESSAGE value="Ejercicio examen N°3 corregido" />
     <MESSAGE value="Agrego nueva funcion findControls(), findControlsQuantity(),hasAttributeValue(),waitUntilElementHasHtmlAttribute().&#10;&#10;Y agrego documentacion a las funciones." />
     <MESSAGE value="Examen ejercicio 4" />
     <MESSAGE value="Examen ejercicio 4 completo" />
@@ -673,18 +683,9 @@
     <MESSAGE value="Implementado" />
     <MESSAGE value="Optimizacion" />
     <MESSAGE value="Small changes for github actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes for github actions" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Update gradle.yml" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
