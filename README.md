@@ -15,7 +15,7 @@
 ### Maximize Window
 
 - driver.manage().window().maximize(); # Selenium-CleanStructure
-
+ddd
 # Gradle commands
 
 - gradle clean -x test -PenvFile=qa.properties tests
