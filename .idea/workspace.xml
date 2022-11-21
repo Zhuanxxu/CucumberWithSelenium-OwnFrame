@@ -7,6 +7,9 @@
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,14 +323,7 @@
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
       <workItem from="1669043170458" duration="7819000" />
-      <workItem from="1669066026780" duration="1166000" />
-    </task>
-    <task id="LOCAL-00006" summary="Mejoro los waits para que no se crucen con los assertions">
-      <created>1666200964336</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1666200964336</updated>
+      <workItem from="1669066026780" duration="2638000" />
     </task>
     <task id="LOCAL-00007" summary="Cambio el wait del delete y su assertion para que sea mejor. Dejo comentada la otra opcion con el cartel">
       <created>1666207495289</created>
@@ -665,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669066246342</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Linux chrome test">
+      <created>1669070867920</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1669070867920</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

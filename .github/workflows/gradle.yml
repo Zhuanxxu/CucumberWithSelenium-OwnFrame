@@ -35,8 +35,8 @@ jobs:
 #        arguments: build
     - name: Install google chrome
       run: |
-          chmod +x ./scripts/InstallChrome.sh
-            ./scripts/InstallChrome.sh
+            chmod +x ./scripts/InstallChrome.sh
+                    ./scripts/InstallChrome.sh
     - name : build gradle
       run: gradle build
       

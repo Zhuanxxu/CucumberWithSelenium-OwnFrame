@@ -42,6 +42,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
         because("we want to use JUnit 5 assertions")
     }
+    testImplementation("io.github.bonigarcia:webdrivermanager:5.3.1")
 }
 
 
@@ -90,6 +91,7 @@ tasks {
         systemProperty("cucumber.publish.quiet", "true")
         // OPTIONAL: Force test execution even if they are up-to-date according to Gradle
         outputs.upToDateWhen { false }
+
     }
 }
 
