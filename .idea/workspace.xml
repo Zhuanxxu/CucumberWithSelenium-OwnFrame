@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,14 +317,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="6360000" />
-    </task>
-    <task id="LOCAL-00001" summary="Ejercicio completo1">
-      <created>1666105597306</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666105597306</updated>
+      <workItem from="1669043170458" duration="6980000" />
     </task>
     <task id="LOCAL-00002" summary="Pongo sleeps">
       <created>1666107377217</created>
@@ -663,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669053084347</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Testing">
+      <created>1669056479069</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669056479069</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Examen ejercicio 4" />
     <MESSAGE value="Examen ejercicio 4 completo" />
     <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen" />
     <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen pequeñas mejoras con due date y description" />
@@ -706,7 +704,8 @@
     <MESSAGE value="Testing actios and reports to be ok" />
     <MESSAGE value="Update gradle.yml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
