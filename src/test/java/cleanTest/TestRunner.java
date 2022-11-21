@@ -28,7 +28,7 @@ import utils.GetProperties;
 @SelectClasspathResource("features")
 @ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@math")
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "cleanTest")
-@ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:test/report/cucumber_report.json")
+@ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:docs/cucumber_report.json")
 public class TestRunner {
 
     @AfterAll
