@@ -47,8 +47,7 @@ jobs:
       run: |
         git config --global user.name ${{ secrets.USER }}
         git config --global user.email ${{ secrets.PWD }}
-        git pull
         git add -A
-        git commit --amend --no-edit
+        git commit -m "Reports files"
         git push
 
