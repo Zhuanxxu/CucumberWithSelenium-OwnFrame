@@ -10,7 +10,7 @@ public class Headless implements IBrowser {
     @Override
     public WebDriver create() {
         //Esto settea el path al archivo driver webdriver
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriverLinux.exe");
 
         //Para correr en headless
         ChromeOptions options = new ChromeOptions();
