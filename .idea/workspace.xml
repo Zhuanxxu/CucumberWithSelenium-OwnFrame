@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriverLinux.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/qa.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,14 +320,7 @@
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
       <workItem from="1669043170458" duration="7819000" />
-      <workItem from="1669066026780" duration="195000" />
-    </task>
-    <task id="LOCAL-00005" summary="Hago ejercicio de crud de item de todo.ly, me falta mejorar los wait until para que no se cruce con los assertions">
-      <created>1666194419096</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666194419097</updated>
+      <workItem from="1669066026780" duration="1166000" />
     </task>
     <task id="LOCAL-00006" summary="Mejoro los waits para que no se crucen con los assertions">
       <created>1666200964336</created>
@@ -668,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669057968972</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Linux chrome test">
+      <created>1669066246342</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1669066246342</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Examen ejercicio 4 completo" />
     <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen" />
     <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen pequeñas mejoras con due date y description" />
     <MESSAGE value="Pequeños cambios" />
@@ -711,7 +707,8 @@
     <MESSAGE value="Update gradle.yml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
+    <MESSAGE value="Linux chrome test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linux chrome test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
