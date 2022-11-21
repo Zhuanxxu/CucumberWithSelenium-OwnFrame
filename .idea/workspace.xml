@@ -317,14 +317,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="7407000" />
-    </task>
-    <task id="LOCAL-00003" summary="Ejercicio de register y cambio de PWD">
-      <created>1666107765262</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1666107765262</updated>
+      <workItem from="1669043170458" duration="7616000" />
     </task>
     <task id="LOCAL-00004" summary="Mejoro los XPATH y uso implicitlyWait">
       <created>1666114847488</created>
@@ -662,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669057532924</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Testing">
+      <created>1669057759735</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057759735</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
