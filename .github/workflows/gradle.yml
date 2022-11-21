@@ -44,10 +44,12 @@ jobs:
         name: dist-without-markdown
         path: |
           docs
-    - name: Archive code coverage results
-      uses: actions/upload-artifact@v3
+    - name: Commit and push changes
+      run: |
+        git config --global user.name ${{ secrets.USER }}
+        git config --global user.email ${{ secrets.PWD }}
 
-      with:
-        name: code-coverage-report
-        path: output/test/code-coverage.html
+        git add -A
+        git commit -m "reports generated from github actions"
+        git push
 
