@@ -47,8 +47,8 @@ jobs:
       run: |
         git config --global user.name ${{ secrets.USER }}
         git config --global user.email ${{ secrets.PWD }}
-
+        git checkout -b "Reports page"
         git add -A
-        git -v --amend
+        git commit --amend --no-edit
         git push
 
