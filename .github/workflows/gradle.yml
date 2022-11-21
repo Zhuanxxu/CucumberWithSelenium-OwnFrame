@@ -35,5 +35,5 @@ jobs:
       with:
         arguments: build
     - name: Move report to root
-      run:  cp -a test/report/. .
+      run:  pwd
       

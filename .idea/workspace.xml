@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,28 +75,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Documents/Programacion/CucumberWithSelenium-OwnFrame",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion/CucumberWithSelenium-OwnFrame&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programacion\CucumberWithSelenium-OwnFrame" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\src\test\resources\features" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\cloud\settings" />
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\docker\settings" />
-      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\edge\settings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\src\test\resources" />
@@ -317,7 +320,7 @@
       <workItem from="1668995563314" duration="3000" />
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
-      <workItem from="1669043170458" duration="900000" />
+      <workItem from="1669043170458" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio completo1">
       <created>1666105597306</created>
@@ -620,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669043453993</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Small changes for github actions">
+      <created>1669044284263</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669044284263</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
