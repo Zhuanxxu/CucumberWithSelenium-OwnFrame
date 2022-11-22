@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/05a0d67c-440e-453c-8121-1e38210bd8b5-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/0795c6e5-e2a7-44e2-8879-b4006b16bbb1-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/29bbde7e-c79b-40fb-b827-f5dadfeb8f11-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/3bbca772-9f27-438e-b99d-99021dc24dad-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/67e533f2-6759-494a-9320-a280929f62b3-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/fa982da9-2e7d-471a-b0bf-1420d31f92ea-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,14 +318,9 @@
       <workItem from="1669042760493" duration="20000" />
       <workItem from="1669043002813" duration="156000" />
       <workItem from="1669043170458" duration="7819000" />
-      <workItem from="1669066026780" duration="8119000" />
-    </task>
-    <task id="LOCAL-00009" summary="Vamos haciendo buenas practicas a los test que ya habiamos hecho">
-      <created>1666380983557</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1666380983557</updated>
+      <workItem from="1669066026780" duration="8808000" />
+      <workItem from="1669121880336" duration="1473000" />
+      <workItem from="1669147479145" duration="1550000" />
     </task>
     <task id="LOCAL-00010" summary="Ejercicio con TodoIst con nuevas practicas">
       <created>1666624342117</created>
@@ -671,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669080679339</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Iconos que no aparecian en el html resueltos">
+      <created>1669083154408</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1669083154408</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen pequeñas mejoras con due date y description" />
     <MESSAGE value="Pequeños cambios" />
     <MESSAGE value="First Commit for clean structure" />
     <MESSAGE value="Test watcher" />
@@ -714,7 +707,8 @@
     <MESSAGE value="Testing" />
     <MESSAGE value="Linux chrome test" />
     <MESSAGE value="Final test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final test" />
+    <MESSAGE value="Iconos que no aparecian en el html resueltos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iconos que no aparecian en el html resueltos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
