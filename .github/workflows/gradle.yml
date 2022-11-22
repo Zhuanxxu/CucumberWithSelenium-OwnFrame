@@ -42,6 +42,7 @@ jobs:
       
     - name: Setup Node.js environment
       uses: actions/setup-node@v3.5.1
+    - run: npm install
     - run: npm run report
       
     - name: Archive production artifacts
