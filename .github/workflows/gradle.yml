@@ -26,6 +26,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+        cache: gradle
 #    - name: Validate Gradle wrapper
 #      uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
 #    - name: Build with Gradle
@@ -36,12 +37,12 @@ jobs:
 #      run: |
 #            chmod +x ./scripts/InstallChrome.sh
 #                    ./scripts/InstallChrome.sh
-    - name: Gradle Cache
+#    - name: Gradle Cache
       # You may pin to the exact commit or the version.
       # uses: burrunan/gradle-cache-action@5424817e64ccb6bf267f715f5a46de1bf777c633
-      uses: burrunan/gradle-cache-action@v1
-      with:
-        gradle-version: 7.5.1
+#      uses: burrunan/gradle-cache-action@v1
+#      with:
+#        gradle-version: 7.5.1
         
     - name : Gradle Build
       run: gradle build
