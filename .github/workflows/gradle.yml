@@ -39,6 +39,10 @@ jobs:
 #                    ./scripts/InstallChrome.sh
     - name : build gradle
       run: gradle build
+    - name : Bash Action
+      uses: rethab/bash-action@v1
+      with:
+        run: npm run report
       
     - name: Archive production artifacts
       uses: actions/upload-artifact@v3
