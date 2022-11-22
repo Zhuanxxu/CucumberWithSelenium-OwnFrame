@@ -49,9 +49,9 @@ jobs:
           docs
     - name: Commit and push changes
       run: |
-        git config --global user.name ${{ secrets.USER }}
+        git config --global user.name "Agute"
         git config --global user.email ${{ secrets.USER }}
-        git add .
-        git commit -m "Reports files"
+        git add -A
+        git commit -m "Latest data: ${timestamp}"
         git push
 
