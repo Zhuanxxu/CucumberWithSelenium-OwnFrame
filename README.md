@@ -19,4 +19,3 @@ https://zhuanxxu.github.io/CucumberWithSelenium-OwnFrame/
 
 - gradle clean -x test -PenvFile=qa.properties tests
   Ejecuta los test con el @tag SmokeTest y settea
-
