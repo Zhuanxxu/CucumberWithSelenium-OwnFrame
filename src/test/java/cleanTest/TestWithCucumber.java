@@ -61,7 +61,7 @@ public class TestWithCucumber extends TestBaseCucumber {
 
     @Then("Deberian quedar {int} tareas")
     public void deberian_quedar_tareas(Integer total) {
-        Assertions.assertEquals(total+1, this.left);
+        Assertions.assertEquals(total, this.left);
     }
 
     @Given("Un blog llamado {string} con el siguiente contenido")
