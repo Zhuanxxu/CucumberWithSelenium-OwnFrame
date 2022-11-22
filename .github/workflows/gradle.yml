@@ -57,7 +57,7 @@ jobs:
         git config --global user.name "Agute"
         git config --global user.email ${{ secrets.USER }}
         git add -A
-        git commit -m "Latest data: ${timestamp}"
+        git commit -m "Report generated"
         git push
 
 
