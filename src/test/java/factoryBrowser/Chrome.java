@@ -10,7 +10,7 @@ public class Chrome implements IBrowser {
     @Override
     public WebDriver create() {
         //Esto settea el path al archivo driver webdriver
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
 
         //Para correr en headless
 //        ChromeOptions options = new ChromeOptions();

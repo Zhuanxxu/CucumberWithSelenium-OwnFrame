@@ -6,15 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="Delete node_modules directory">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/driver/msedgedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/preprod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Chrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/report/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/cucumber_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/report/index.html" afterDir="false" />
     </list>
@@ -662,17 +661,6 @@
     <MESSAGE value="Implementado" />
     <MESSAGE value="Optimizacion" />
     <option name="LAST_COMMIT_MESSAGE" value="Optimizacion" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

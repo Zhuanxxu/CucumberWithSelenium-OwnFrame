@@ -18,6 +18,6 @@
 
 # Gradle commands
 
-- gradle clean -x test -PenvFile=qa.properties tests
-  Ejecuta los test con el @tag SmokeTest y settea
+- gradle test -PenvFile=qa.properties
+
 
