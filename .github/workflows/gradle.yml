@@ -70,7 +70,7 @@ jobs:
       with:
         name: dist-without-markdown
         path: |
-          docs
+          reports
           
     - name: Commit and push changes
       run: |
