@@ -1,10 +1,7 @@
 package cleanTest;
 
 
-import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
 import io.cucumber.junit.platform.engine.Constants;
 import org.json.JSONObject;
 import org.junit.platform.suite.api.ConfigurationParameter;
@@ -20,7 +17,7 @@ import utils.GetProperties;
 import java.io.FileWriter;
 import java.io.IOException;
 
-
+import static utils.JsonCreator.createJsonFilewithBrowserAndOs;
 
 
 /*@Cucumber
@@ -36,27 +33,13 @@ import java.io.IOException;
 @SelectClasspathResource("features")
 @ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@math")
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "cleanTest")
-@ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:docs/cucumber_report.json")
+@ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:reports/cucumber_report.json")
 public class TestRunner {
     static String browserName;
     static String browserVersion;
     @AfterAll
     public static void after_all() {
         try {
-            // Create a new JSON object
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("BrowserName", browserName);
-            jsonObject.put("BrowserVersion", browserVersion);
-            jsonObject.put("os", System.getProperty("os.name"));
-            jsonObject.put("osVersion", System.getProperty("os.version"));
-
-            // Write the JSON object to a file
-            try (FileWriter fileWriter = new FileWriter("prueba.json")) {
-                fileWriter.write(jsonObject.toString());
-                System.out.println("JSON object has been written to the file.");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
 
 
             String[] cmd = {"cmd.exe", "/c", "npm run report"};
@@ -71,12 +54,7 @@ public class TestRunner {
     @Before
     public void setUp() {
         Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());
-        // Obtener las capacidades del navegador
-        Capabilities capabilities = ((RemoteWebDriver) Session.getInstance().getBrowser()).getCapabilities();
 
-        // Obtener el nombre del navegador y su versión
-        browserName = capabilities.getBrowserName();
-        browserVersion = capabilities.getBrowserVersion();
     }
 
     @After
@@ -85,6 +63,16 @@ public class TestRunner {
             byte[] screenshot = ((TakesScreenshot) Session.getInstance().getBrowser()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", "screenshot");
         }
+
+        // Obtener las capacidades del navegador
+        Capabilities capabilities = ((RemoteWebDriver) Session.getInstance().getBrowser()).getCapabilities();
+
+        // Obtener el nombre del navegador y su versión
+        browserName = capabilities.getBrowserName();
+        browserVersion = capabilities.getBrowserVersion();
+        //Crea archivo json con info de browser y os
+        createJsonFilewithBrowserAndOs(browserName,browserVersion);
+
         Session.getInstance().closeBrowser();
     }
 }

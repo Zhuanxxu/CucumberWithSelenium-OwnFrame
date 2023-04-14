@@ -2,7 +2,7 @@ const report = require('multiple-cucumber-html-reporter');
 const os = require('os');
 const sistemaOperativo = os.platform();
 const versionSistemaOperativo = os.release();
-const json = require('./prueba.json');
+const json = require('./contextTestInfo.json');
 
 
 
