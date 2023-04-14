@@ -8,15 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/QA-Automation-YT/selenium-cucumber-java.git"
+    "url": "https://github.com/Zhuanxxu/CucumberWithSelenium-OwnFrame.git"
   },
-  "author": "Santiago Sosa",
+  "author": "Igneel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/QA-Automation-YT/selenium-cucumber-java/issues"
-  },
-  "homepage": "https://github.com/QA-Automation-YT/selenium-cucumber-java#readme",
+  "homepage": "https://github.com/Zhuanxxu/CucumberWithSelenium-OwnFrame",
   "devDependencies": {
-    "multiple-cucumber-html-reporter": "^1.16.1"
+    "multiple-cucumber-html-reporter": "3.3.0"
   }
 }

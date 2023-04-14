@@ -1,18 +1,26 @@
 package cleanTest;
 
+
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.junit.platform.engine.Constants;
+import org.json.JSONObject;
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.SelectClasspathResource;
 import org.junit.platform.suite.api.Suite;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import singletonSession.Session;
 import utils.GetProperties;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
 
 
 /*@Cucumber
@@ -30,10 +38,26 @@ import utils.GetProperties;
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "cleanTest")
 @ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:docs/cucumber_report.json")
 public class TestRunner {
-
+    static String browserName;
+    static String browserVersion;
     @AfterAll
     public static void after_all() {
         try {
+            // Create a new JSON object
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("BrowserName", browserName);
+            jsonObject.put("BrowserVersion", browserVersion);
+            jsonObject.put("os", System.getProperty("os.name"));
+            jsonObject.put("osVersion", System.getProperty("os.version"));
+
+            // Write the JSON object to a file
+            try (FileWriter fileWriter = new FileWriter("prueba.json")) {
+                fileWriter.write(jsonObject.toString());
+                System.out.println("JSON object has been written to the file.");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
 
             String[] cmd = {"cmd.exe", "/c", "npm run report"};
             Runtime.getRuntime().exec(cmd);
@@ -47,6 +71,12 @@ public class TestRunner {
     @Before
     public void setUp() {
         Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());
+        // Obtener las capacidades del navegador
+        Capabilities capabilities = ((RemoteWebDriver) Session.getInstance().getBrowser()).getCapabilities();
+
+        // Obtener el nombre del navegador y su versión
+        browserName = capabilities.getBrowserName();
+        browserVersion = capabilities.getBrowserVersion();
     }
 
     @After

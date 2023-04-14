@@ -3,7 +3,7 @@
 /node_modules/
 .idea
 test/report/*
-
+reports/features
 # Ignore Gradle GUI config
 gradle-app.setting
 

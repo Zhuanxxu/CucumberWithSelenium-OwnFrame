@@ -1,18 +1,27 @@
 const report = require('multiple-cucumber-html-reporter');
+const os = require('os');
+const sistemaOperativo = os.platform();
+const versionSistemaOperativo = os.release();
+const json = require('./prueba.json');
+
+
+
 
 report.generate({
-    jsonDir: './docs/',
-    reportPath: './docs/',
+    jsonDir: './reports/',
+    reportPath: './reports/',
     openReportInBrowser: true,
+    displayDuration:true,
+    displayReportTime:true,
     metadata: {
         browser: {
-            name: 'chrome',
-            version: '60'
+            name: json.BrowserName,
+            version: json.BrowserVersion
         },
         device: 'Local test machine',
         platform: {
-            name: 'Windows',
-            version: '10 Pro'
+            name: sistemaOperativo,
+            version: versionSistemaOperativo
         }
     },
     customData: {
